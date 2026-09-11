@@ -20,7 +20,20 @@ header{
     
 }
 
-div{
+a{
     border: 2px solid green;
     flex-direction: row;
+}
+
+.p {
+    border: 2px solid green;
+    
+}
+
+.k{
+    border: 2px solid green;
+}
+
+.s{
+    border: 2px solid green;
 }
