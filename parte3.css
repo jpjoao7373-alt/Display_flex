@@ -1,0 +1,28 @@
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    
+body {
+     height: 100vh;
+     border: 2px solid red;
+     flex-direction: column;
+     align-items: center;
+     display: flex;
+    }
+
+    a {
+        border: 2px solid blue;
+        width: 90px;
+        height:90px;
+        margin-top:200px;
+    }
+
+    p {
+        border: 2px solid blue;
+        width: 90px;
+        height:90px;
+    }
+    
