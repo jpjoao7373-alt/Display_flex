@@ -6,12 +6,36 @@
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
-    margin: 0;
-}
+    border: 2px solid red;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+   }
+
+   h1{
+    width: 400px;
+    height:200px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+
+   }
+
+   a {
+        border:2px solid green ;
+        padding-inline: 50px;
+   }
+
+   p {
+    border:2px solid green ;
+    padding-inline: 50px;
+   }
+
+   .t {
+     padding-inline: 30px;
+ }
 
 
 
