@@ -8,33 +8,45 @@
 body {
     height: 100vh;
     border: 2px solid red;
+   }
+
+   .caixa{
+
+    border: 2px solid blue;
+    margin-top: 200px;
     flex-direction: column;
     align-items: center;
     display: flex;
-   }
+    width:500px
+    
 
+
+   }
+   
    h1{
     width: 400px;
     height:200px;
-    border: 2px solid blue;
     display: flex;
     justify-content: center;
-    margin-top: 200px;
-
+    padding-top: 20px;
+ 
    }
 
    a {
         border:2px solid green ;
-        padding-inline: 50px;
+        padding: 0;
+        padding-bottom: 20px;
+        
    }
 
    p {
     border:2px solid green ;
-    padding-inline: 50px;
+    padding: 0;
+    margin-inline: 90px;
    }
 
    .t {
-     padding-inline: 30px;
+     padding: 0;
  }
 
 
